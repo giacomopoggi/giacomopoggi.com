@@ -1,0 +1,107 @@
+baseurl = "https://giacomopoggi.netlify.com/"
+title = "Giacomo Poggi"
+
+theme = "hugo-coder-master"
+
+languagecode = "en"
+defaultcontentlanguage = "it"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "rrt"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+pluralizelisttitles = false
+
+[params]
+    author = "Giacomo Poggi"
+    description = "Il sito personale di Giacomo Poggi"
+    keywords = "blog,sito,personale,economia,programmazione,tecnologia"
+    info = "Economista, fiscalista, programmatore e tecnoentusiasta"
+    avatarurl = "images/avatar.jpg"
+    footercontent = "Gli articoli del blog sono contraddistinti dal simbolo 🇮🇹 o 🇬🇧 per evidenziare la lingua in cui sono scritti."
+
+    dateformat = "02/01/2006"
+
+    hideCredits = true
+    hideCopyright = false
+    since = 2020
+
+    # Specify light/dark colorscheme
+    # Supported values:
+    # "auto" (use preference set by browser)
+    # "dark" (dark background, light foreground)
+    # "light" (light background, dark foreground) (default)
+    colorscheme = "dark"
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Custom CSS
+    custom_css = []
+
+    # Custom JS
+    custom_js = []
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[[params.social]]
+    name = "Email"
+    icon = "fas fa-envelope"
+    weight = 1
+    url = "mailto:giacomo.poggi.1@gmail.com"
+[[params.social]]
+    name = "OpenPGP"
+    icon = "fas fa-key"
+    weight = 2
+    url = "/txt/openpgp.txt/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/giacomopoggi/"
+
+
+[languages]
+    [languages.it]
+        languagename = "Italiano"
+
+        [languages.it.menu]
+            [[languages.it.menu.main]]
+            name = "Blog"
+            weight = 1
+            url = "blog/"
+
+            [[languages.it.menu.main]]
+            name = "Contatti"
+            weight = 2
+            url = "contatti/"
+
+
+    [languages.en]
+        languagename = "English"
+        title = "Giacomo Poggi"
+
+        [languages.en.params]
+            author = "Giacomo Poggi"
+            info = "Economist, fiscalist, programmer and tech enthusiast"
+            description = "Giacomo Poggi's personal website"
+            keywords = "blog,site,personal,economy,programming,technology"
+            footercontent = "Blog articles are marked with the symbol 🇮🇹 or 🇬🇧 to highlight the language in which they are written.</br>The english version of the site uses the international standard ISO 8601 (YYYY-MM-DD) to represent dates."
+            dateformat = "2006-01-02"
+
+        [languages.en.menu]
+            [[languages.en.menu.main]]
+            name = "Blog"
+            weight = 1
+            url = "blog/"
+
+            [[languages.en.menu.main]]
+            name = "Contacts"
+            weight = 2
+            url = "contacts/"
