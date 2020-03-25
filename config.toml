@@ -78,9 +78,9 @@ pluralizelisttitles = false
             url = "blog/"
 
             [[languages.it.menu.main]]
-            name = "Contatti"
+            name = "Curriculum Vitae"
             weight = 2
-            url = "contatti/"
+            url = "/pdf/cv.pdf/"
 
 
     [languages.en]
@@ -102,6 +102,6 @@ pluralizelisttitles = false
             url = "blog/"
 
             [[languages.en.menu.main]]
-            name = "Contacts"
+            name = "Curriculum Vitae"
             weight = 2
-            url = "contacts/"
+            url = "/pdf/cv.pdf/"
