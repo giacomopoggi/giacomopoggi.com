@@ -54,7 +54,7 @@ pluralizelisttitles = false
     name = "Email"
     icon = "fas fa-envelope"
     weight = 1
-    url = "mailto:giacomo.poggi.1@gmail.com"
+    url = "/txt/email.txt"
 [[params.social]]
     name = "OpenPGP"
     icon = "fas fa-key"
