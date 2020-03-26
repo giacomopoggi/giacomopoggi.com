@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://giacomopoggi.com/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://giacomopoggi.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://giacomopoggi.com/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://giacomopoggi.com/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://giacomopoggi.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://giacomopoggi.com/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://giacomopoggi.com/en/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://giacomopoggi.com/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://giacomopoggi.com/en/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://giacomopoggi.com/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://giacomopoggi.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://giacomopoggi.com/en/tags/"
+                />
+  </url>
+  
+</urlset>
