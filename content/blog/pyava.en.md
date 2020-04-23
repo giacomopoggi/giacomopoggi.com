@@ -18,13 +18,12 @@ The entire project can be found on [GitHub](https://github.com/giacomopoggi/Pyav
 | Esc    | Close the program.                               |
 | Tab    | Change between the left and right panel.         |
 | Ctrl+A | Show an information message.                     |
-| Ctrl+R | Reload information config.ini.                   |
+| Ctrl+R | Reload config.ini without closing the program.   |
 | Ctrl+S | Set a custom separator for splitting parameters. |
 
 **Configuration**
 
-Pyava is configured using a file named "config.ini". This file contains everything Pyava needs to know about the folders
-and files it will launch.
+Pyava is configured using a file named "config.ini". This file contains everything Pyava needs to know about the folders and files it will launch.
 
 Here is an example that generates the screenshot above:
 ```ini
@@ -39,5 +38,4 @@ executable = C:\Emulators\Mesen\Mesen.exe
 extensions = .7z
 parameters = /fullscreen, /DoNotSaveSettings
 ```
-Parameters and extensions are separated by ",". You can set a custom separator using the apposite keyboard shortcut, but it
-resets to "," every time you select a different platform from the list.
+Parameters and extensions are separated by ",". You can set a custom separator using the apposite keyboard shortcut, but it resets to "," every time you select a different platform from the list.

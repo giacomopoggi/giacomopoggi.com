@@ -1,32 +1,31 @@
 +++
 date = "2020-04-22"
-title = "🇬🇧 Pyava: a simple emulator launcher written in Python"
+title = "🇮🇹 Pyava: un semplice launcher per emulatori scritto in Python"
 +++
 
-Pyava is a simple emulator launcher that I wrote in the october of 2017 using Python (more precisely Python 3), the programming language I was studying at the time.  
-It's a portable and convenient menu to run all your games from a single place.  
-Its creation was inspired by [Yava](https://github.com/Beluki/Yava), a similar utility written in C# (and the name Pyava itself is the crasis of the words **P**ython and **Yava**).  
-The entire project can be found on [GitHub](https://github.com/giacomopoggi/Pyava).
+Pyava è un semplice launcher per emulatori che ho scritto nell'ottobre del 2017 in Python (per la precisione Python 3), il linguaggio di programmazione che studiavo in quel momento.  
+Si configura come un comodo menù portatile per avviare i propri giochi.  
+L'idea è stata ispirata da [Yava](https://github.com/Beluki/Yava), un programma molto simile scritto in linguaggio C# (ed il nome Pyava stesso rappresenta una crasi delle parole **P**ython e **Yava**).  
+Pyava può essere scaricato gratuitamente da [GitHub](https://github.com/giacomopoggi/Pyava).
 
 ![alt text](/images/pyava-screenshot.png)
-*Pyava running on Windows 10*
+*Pyava su Windows 10*
 
-**Keyboard shortcuts**
+**Tasti rapidi**
 
-| Key    | Use                                              |
-| ------ | ------------------------------------------------ |
-| Esc    | Close the program.                               |
-| Tab    | Change between the left and right panel.         |
-| Ctrl+A | Show an information message.                     |
-| Ctrl+R | Reload information config.ini.                   |
-| Ctrl+S | Set a custom separator for splitting parameters. |
+| Tasto  | Funzione                                                       |
+| ------ | -------------------------------------------------------------- |
+| Esc    | Chiude il programma.                                           |
+| Tab    | Sposta la selezione dal pannello sinistro al destro.           |
+| Ctrl+A | Mostra un messaggio informativo.                               |
+| Ctrl+R | Ricarica il file config.ini senza chiudere il programma.       |
+| Ctrl+S | Imposta un separatore personalizzato per dividere i parametri. |
 
-**Configuration**
+**Configurazione**
 
-Pyava is configured using a file named "config.ini". This file contains everything Pyava needs to know about the folders
-and files it will launch.
+Pyava deve essere configurato utilizzando un file denominato "config.ini". Questo file contiene tutto ciò che Pyava ha bisogno di sapere sulle cartelle ed i file che dovrà gestire.
 
-Here is an example that generates the screenshot above:
+Questo esempio di configurazione è stato utilizzato nella generazione dello screeenshot precedente:
 ```ini
 [Game Boy]
 games = C:\Games\Game Boy\
@@ -39,5 +38,4 @@ executable = C:\Emulators\Mesen\Mesen.exe
 extensions = .7z
 parameters = /fullscreen, /DoNotSaveSettings
 ```
-Parameters and extensions are separated by ",". You can set a custom separator using the apposite keyboard shortcut, but it
-resets to "," every time you select a different platform from the list.
+I parametri e le estensioni sono separati dal carattere ",". Si può impostare un separatore personalizzato utilizzando l'apposito tasto rapido, ma il separatore è reimpostato sul carattere "," ogni volta che viene selezionata una piattaforma diversa dalla lista.
