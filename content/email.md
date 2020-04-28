@@ -6,4 +6,4 @@ title = "Email"
 
 email [at] giacomopoggi [dot] com
 
-[^1]: L'indirizzo email è volutamente scritto in un formato non convenzionale per evitare la posta indesiderata. È necessario sostituire i caratteri " [at] " e " [dot] " con i caratteri "@" e "." affinché il messaggio possa essere recapitato correttamente.
+[^1]: L'indirizzo email è volutamente scritto in un formato non convenzionale per evitare la posta indesiderata. È necessario rimuovere gli spazi e sostituire i caratteri "[at]" e "[dot]" con i caratteri "@" e "." affinché il messaggio possa essere recapitato correttamente.
