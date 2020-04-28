@@ -23,7 +23,7 @@ googleAnalytics = "UA-164287873-1"
     keywords = "blog,sito,personale,economia,programmazione,tecnologia"
     info = "Economista, fiscalista, programmatore e tecnoentusiasta"
     avatarurl = "images/avatar.jpg"
-    footercontent = "Sito web personale di Giacomo Poggi."
+    footercontent = ""
 
     dateformat = "02/01/2006"
 
@@ -94,7 +94,7 @@ googleAnalytics = "UA-164287873-1"
             info = "Economist, fiscalist, programmer and tech enthusiast"
             description = "Giacomo Poggi's personal website"
             keywords = "blog,site,personal,economy,programming,technology"
-            footercontent = "Personal website of Giacomo Poggi.</br>The english version of the site uses the international standard ISO 8601 (YYYY-MM-DD) to represent dates."
+            footercontent = "The english version of the site uses the international standard ISO 8601 (YYYY-MM-DD) to represent dates."
             dateformat = "2006-01-02"
 
         [languages.en.menu]
