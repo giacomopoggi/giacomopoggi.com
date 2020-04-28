@@ -2,7 +2,7 @@
 title = "OpenPGP"
 +++
 
-La mia attuale chiave pubblica OpenPGP[^1] è la seguente:
+La mia attuale chiave pubblica OpenPGP è la seguente:
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
@@ -36,5 +36,3 @@ EQ==
 =u2vR
 -----END PGP PUBLIC KEY BLOCK-----
 ```
-
-[^1]: OpenPGP è uno standard per il criptaggio e decriptaggio di dati.
