@@ -1,6 +1,6 @@
 +++
 date = "2020-04-22"
-title = "🇮🇹 Pyava: un semplice launcher per emulatori scritto in Python"
+title = "Pyava: un semplice launcher per emulatori scritto in Python"
 +++
 
 Pyava è un semplice launcher per emulatori che ho scritto nell'ottobre del 2017 in Python (per la precisione Python 3), il linguaggio di programmazione che studiavo in quel momento.  

@@ -1,6 +1,6 @@
 +++
 date = "2020-04-22"
-title = "🇬🇧 Pyava: a simple emulator launcher written in Python"
+title = "Pyava: a simple emulator launcher written in Python"
 +++
 
 Pyava is a simple emulator launcher that I wrote in the october of 2017 using Python (more precisely Python 3), the programming language I was studying at the time.  
