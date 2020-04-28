@@ -1,3 +1,9 @@
++++
+title = "OpenPGP"
++++
+
+La mia attuale chiave pubblica OpenPGP[^1] è la seguente:
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQENBF56PCIBCACheSYnOUTz39in/+ePHwWuwdNgTyjamq9Jj48TMCX5x29SHyQf
@@ -29,3 +35,6 @@ Muoip8YheU2DGdppPBRPMR4JBUPuQ8b/NcF3j+dlHxB4M3ihitPipDWETgSRHi53
 EQ==
 =u2vR
 -----END PGP PUBLIC KEY BLOCK-----
+```
+
+[^1]: OpenPGP è uno standard per il criptaggio e decriptaggio di dati.
