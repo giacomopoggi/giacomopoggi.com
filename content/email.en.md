@@ -2,7 +2,7 @@
 title = "Email"
 +++
 
-You can contact me simply writing at the following email address:
+You can contact me simply by writing to the following email address:
 ```
 email [at] giacomopoggi [dot] com
 ```
