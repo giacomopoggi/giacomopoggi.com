@@ -91,7 +91,7 @@ googleAnalytics = "UA-164287873-1"
             info = "Economist, fiscalist, programmer and tech enthusiast"
             description = "Giacomo Poggi's personal website"
             keywords = "blog,site,personal,economy,programming,technology"
-            footercontent = "The english version of the site uses the international standard ISO 8601 (YYYY-MM-DD) to represent dates."
+            footercontent = "Warning: by choice, blog articles are primarily written in italian language. Only a select few will get an english translation, eventually."
             dateformat = "2006-01-02"
 
         [languages.en.menu]
