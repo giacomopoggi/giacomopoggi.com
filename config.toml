@@ -18,7 +18,7 @@ googleAnalytics = "UA-164287873-1"
     keywords = "blog,sito,personale,economia,programmazione,tecnologia"
     info = "Economista ～ Fiscalista ～ Programmatore"
     avatarurl = "images/avatar.jpg"
-    footercontent = ""
+    footercontent = "BTC: 3KgzuzeivtaJrg5inZSeu8tjx8i8onnex4"
     dateformat = "02/01/2006"
     hideCredits = true
     hideCopyright = false
@@ -64,6 +64,12 @@ googleAnalytics = "UA-164287873-1"
     icon = "fab fa-linkedin"
     weight = 3
     url = "https://www.linkedin.com/in/giacomopoggi/"
+    
+[[params.social]]
+    name = "Podcast"
+    icon = "fa fa-podcast"
+    weight = 4
+    url = ""
 
 
 [languages]
@@ -91,7 +97,7 @@ googleAnalytics = "UA-164287873-1"
             info = "Economist ～ Fiscalist ～ Programmer"
             description = "Giacomo Poggi's personal website"
             keywords = "blog,site,personal,economy,programming,technology"
-            footercontent = "Warning: by choice, blog articles are primarily written in italian language. Only a select few will get an english translation, eventually."
+            footercontent = "Warning: by choice, blog articles are primarily written in italian language. Only a select few will get an english translation, eventually.<br><br>BTC: 3KgzuzeivtaJrg5inZSeu8tjx8i8onnex4"
             dateformat = "2006-01-02"
 
         [languages.en.menu]
@@ -122,4 +128,10 @@ googleAnalytics = "UA-164287873-1"
             icon = "fab fa-linkedin"
             weight = 3
             url = "https://www.linkedin.com/in/giacomopoggi/"
+
+        [[languages.en.params.social]]
+            name = "Podcast"
+            icon = "fa fa-podcast"
+            weight = 4
+            url = ""
                     
