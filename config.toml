@@ -58,12 +58,6 @@ googleAnalytics = "UA-164287873-1"
     icon = "fab fa-linkedin"
     weight = 2
     url = "https://www.linkedin.com/in/giacomopoggi/"
-    
-[[params.social]]
-    name = "Podcast"
-    icon = "fa fa-podcast"
-    weight = 3
-    url = "https://anchor.fm/giacomopoggi"
 
 
 [languages]
@@ -116,9 +110,3 @@ googleAnalytics = "UA-164287873-1"
             icon = "fab fa-linkedin"
             weight = 2
             url = "https://www.linkedin.com/in/giacomopoggi/"
-
-        [[languages.en.params.social]]
-            name = "Podcast"
-            icon = "fa fa-podcast"
-            weight = 3
-            url = "https://anchor.fm/giacomopoggi"
